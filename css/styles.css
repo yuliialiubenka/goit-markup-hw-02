@@ -30,8 +30,8 @@ body {
 	min-height: 100%;
 	color: var(--text);
 }
-a {
-	text-decoration: none;
+.link {
+    text-decoration: none;
 }
 li {
     list-style: none;
@@ -89,7 +89,7 @@ img {
     align-items: center;
 }
 .header__logo {
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
