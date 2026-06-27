@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--contrast-high);
+}
+
+.footer-logo {
+    color: var(--surface-default);
+}
+
+.footer-text {
+    color: var(--surface-default);
+}

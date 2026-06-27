@@ -1,0 +1,37 @@
+.logo {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--contrast-high);
+}
+
+.logo-accent {
+    color: var(--brand-default);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--contrast-high);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: var(--brand-pressed);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    color: var(--text-primary);
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link:active {
+    color: var(--brand-pressed);
+}

@@ -1,0 +1,52 @@
+:root {
+    --brand-default: #4d5ae5; /* IRIS — CTAs, focused, active states, links */
+    --brand-pressed: #404bbf; /* OCEAN — CTAs pressed / hover / focus */
+    --text-primary: #434455; /* SLATE — body text */
+    --text-secondary: #8e8f99; /* LIGHT SLATE — helper / deemphasized text */
+    --contrast-high: #2e2f42; /* NAVY BLUE — overlays, shadows, headings */
+    --surface-primary: #ffffff; /* WHITE — header, team card background */
+    --surface-default: #f4f4fd; /* CLOUD — light backgrounds, dialogs/alerts */
+    --surface-hero: rgba(46, 47, 66, 0.7); /* GREY — hero image background */
+    --surface-modal: #fcfcfc; /* DAIRY — modal background */
+    --overlay-modal: rgba(46, 47, 66, 0.4); /* NAVY BLUE MODAL — overlay */
+    --accent-subtle: #e7e9fc; /* CORNFLOWER — accent, hairlines, subtle bg */
+    --success: #31d0aa; /* GREEN — valid fields, success messages */
+
+    /* Fonts */
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Raleway", sans-serif;
+
+    /* Typography */
+    --letter-spacing: 0.02em;
+
+    /* Radii */
+    --radius: 4px; /* buttons, inputs, modal */
+
+    /* Shadows (Helper Components) */
+    --shadow-card: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+    --shadow-button: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--letter-spacing);
+    color: var(--text-primary);
+    background-color: var(--surface-primary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+ul {
+    list-style: none;
+}
