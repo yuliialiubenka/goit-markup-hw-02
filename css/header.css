@@ -5,6 +5,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--contrast-high);
+    text-transform: uppercase;
 }
 
 .logo-accent {
